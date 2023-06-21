@@ -7,3 +7,5 @@ function makeFunc(){
 }
 const myfunc=makeFunc();
 myfunc();
+
+//output:  msg Closure call
