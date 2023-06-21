@@ -5,7 +5,8 @@ function makeFunc(){
     }
     return displayMsg;
 }
+//output:  msg Closure call
 const myfunc=makeFunc();
 myfunc();
 
-//output:  msg Closure call
+
