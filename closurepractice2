@@ -1,0 +1,9 @@
+function makeFunc(){
+    const msg="Closure call";
+    function displayMsg(){
+        console.log("msg",msg)
+    }
+    return displayMsg;
+}
+const myfunc=makeFunc();
+myfunc();
